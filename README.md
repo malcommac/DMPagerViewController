@@ -9,9 +9,8 @@ DMPagerViewController is a UIViewController subclass which mimics the navigation
 It also offer several configuration options you can easily see in .h file.
 Because an image worth more than thousand of words this is a short gif which show you the class.
 
-<div style="width:50%; height:450px;">
-<img src="Example/Demo.gif" align="left" height="440" width="250" style="margin-left:20px;">
-</div>
+![alt tag](Example/Demo.gif)
+
 
 ## A short introduction
 
