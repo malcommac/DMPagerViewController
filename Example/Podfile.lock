@@ -1,0 +1,14 @@
+PODS:
+  - DMPagerViewController (0.1.0)
+
+DEPENDENCIES:
+  - DMPagerViewController (from `../`)
+
+EXTERNAL SOURCES:
+  DMPagerViewController:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DMPagerViewController: de3021719d85c86d45ede8da154cd958f2ff49ad
+
+COCOAPODS: 0.36.0.beta.1
