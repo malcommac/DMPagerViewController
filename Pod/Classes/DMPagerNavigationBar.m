@@ -64,10 +64,10 @@
 }
 
 - (void)setRenderingMode:(DMPagerNavigationBarItemMode)renderingMode {
-	if (_renderingMode != renderingMode) return;
+	if (_renderingMode == renderingMode) return;
 	_renderingMode = renderingMode;
 	_iconView.hidden = !(_renderingMode == DMPagerNavigationBarItemModeOnlyImage || _renderingMode == DMPagerNavigationBarItemModeTextAndImage);
-	_iconView.hidden = !(_renderingMode == DMPagerNavigationBarItemModeOnlyText || _renderingMode == DMPagerNavigationBarItemModeTextAndImage);
+	_titleLabel.hidden = !(_renderingMode == DMPagerNavigationBarItemModeOnlyText || _renderingMode == DMPagerNavigationBarItemModeTextAndImage);
 	[self layoutSubviews];
 }
 
