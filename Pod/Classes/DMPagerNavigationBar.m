@@ -64,13 +64,13 @@
 }
 
 - (void)setRenderingMode:(DMPagerNavigationBarItemMode)renderingMode {
-	if (_renderingMode == renderingMode) return;
-	_renderingMode = renderingMode;
-	_iconView.hidden = !(_renderingMode == DMPagerNavigationBarItemModeOnlyImage || _renderingMode == DMPagerNavigationBarItemModeTextAndImage);
-	_titleLabel.hidden = !(_renderingMode == DMPagerNavigationBarItemModeOnlyText || _renderingMode == DMPagerNavigationBarItemModeTextAndImage);
-	[self layoutSubviews];
+    if (_renderingMode == renderingMode) {
+        return;
+    }
+    _renderingMode = renderingMode;
+    _iconView.hidden = !(_renderingMode == DMPagerNavigationBarItemModeOnlyImage || _renderingMode == DMPagerNavigationBarItemModeTextAndImage);
+    [self layoutSubviews];
 }
-
 - (void)layoutSubviews {
 	[super layoutSubviews];
 

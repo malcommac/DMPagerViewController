@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "DMPagerViewController"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "DMPagerViewController is page navigation controller like the one used in Twitter or Tinder"
   s.description      = <<-DESC
                        DMPagerViewController page navigation controller which aims to mimics the one used in Twitter or Tinder with navigation bar on top and a parallax effect on scrolling. 
